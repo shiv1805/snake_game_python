@@ -81,10 +81,10 @@ def move():
 #keyboard binding
 
 wn.listen()
-wn.onkeypress(go_up,"Up")
-wn.onkeypress(go_down,"Down")
-wn.onkeypress(go_left,"Left")
-wn.onkeypress(go_right,"Right")
+wn.onkey(go_up,"Up")
+wn.onkey(go_down,"Down")
+wn.onkey(go_left,"Left")
+wn.onkey(go_right,"Right")
 
         
     
